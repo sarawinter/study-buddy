@@ -1,0 +1,32 @@
+.app {
+  height: 100%;
+  background-color: var(--body-background-color);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headerContainer {
+  flex-basis: 100%;
+  width: 100%;
+  height: 45px;
+  max-height: 45px;
+}
+
+.navbarContainer {
+  flex-basis: 100px;
+  height: calc(100vh - 45px);
+}
+
+.contentContainer {
+  height: calc(100vh - 45px);
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerContainer {
+  flex-basis: 100%;
+  width: 100%;
+  height: 30px;
+  max-height: 30px;
+}

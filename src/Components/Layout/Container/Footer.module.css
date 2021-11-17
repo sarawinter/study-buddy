@@ -1,0 +1,6 @@
+.footer {
+  background-color: var(--primary-color-n2);
+  color: var(--body-text-color-contrast);
+  border-top: 3px solid var(--primary-color-n3);
+  padding: 7px;
+}

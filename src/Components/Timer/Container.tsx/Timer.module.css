@@ -1,0 +1,45 @@
+.timer {
+  margin-top: 30px;
+}
+
+.timer button {
+  margin-left: 10px;
+  font-family: "Baloo 2", cursive;
+  background-color: var(--primary-color-n2);
+  color: white;
+  border-radius: 30px;
+  padding: 3px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.timer button:disabled {
+  background-color: lightgray;
+  cursor: default;
+}
+
+.barContainer {
+  margin-top: 10px;
+  display: inline-block;
+  width: 900px;
+  border: 2px solid black;
+  height: 22px;
+}
+
+.bar {
+  display: inline-block;
+  height: 18px;
+  background-color: green;
+}
+
+.allDone {
+  text-align: center;
+}
+
+.allDone button {
+  margin: 20px;
+  text-align: center;
+  font-size: 28px;
+  border-radius: 30px;
+  padding: 5px 20px;
+}

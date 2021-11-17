@@ -1,0 +1,33 @@
+.header {
+  background-color: var(--primary-color-n2);
+  color: var(--body-text-color-contrast);
+  border-bottom: 0 solid var(--primary-color-n3);
+  padding: 7px;
+  height: 100%;
+}
+
+.content {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.newSession {
+  flex-grow: 1;
+}
+
+.content button {
+  line-height: 22px;
+  cursor: pointer;
+  margin-left: 7px;
+  border-radius: 50%;
+  border: 2px solid var(--body-text-color-contrast);
+  background-color: var(--primary-color-n2);
+  color: var(--body-text-color-contrast);
+}
+
+.content button:hover {
+  color: var(--primary-color-n3-contrast);
+  background-color: var(--primary-color-n2);
+}

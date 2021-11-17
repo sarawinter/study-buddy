@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Open+Sans:wght@400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  background-color: var(--body-background-color);
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Baloo 2", cursive;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}

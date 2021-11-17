@@ -1,0 +1,8 @@
+.navbar {
+  background-color: var(--primary-color-n2);
+  color: var(--body-text-color-contrast);
+  border-bottom: 3px solid var(--primary-color-n3);
+  padding: 7px;
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+:root {
+  --primary-color-n1: #001219;
+  --primary-color-n2: #01658c;
+  --primary-color-n3: #0a9396;
+  --primary-color-n2-contrast: #94d2bd;
+  --primary-color-n3-contrast: #e9d8a6;
+  --secondary-color-n1: #9b2226;
+  --secondary-color-n2: #ae2012;
+  --secondary-color-n3: #bb3e03;
+  --secondary-color-n2-contrast: #ca6702;
+  --secondary-color-n3-contrast: #ee9b00;
+  --body-text-color: #777;
+  --body-text-color-contrast: #f4f4f4;
+  --body-background-color: #f4f5f6;
+}
+
+.palette1 {
+  --rich-black-fogra-29: #001219;
+  --blue-sapphire: #005f73;
+  --viridian-green: #0a9396;
+  --middle-blue-green: #94d2bd;
+  --medium-champagne: #e9d8a6;
+  --gamboge: #ee9b00;
+  --alloy-orange: #ca6702;
+  --mahogany: #bb3e03;
+  --rufous: #ae2012;
+  --ruby-red: #9b2226;
+}
