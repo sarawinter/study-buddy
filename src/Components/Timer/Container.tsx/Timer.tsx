@@ -10,8 +10,8 @@ import styles from "./Timer.module.css";
 
 function Timer({ timerArgs, myEnumType }: TimerProps) {
   const one = EMyEnum.ONE;
-  const timeList = timerArgs;
-  // const timeList = [0.2, 0.3, 20, 5, 10];
+  // const timeList = timerArgs;
+  const timeList = [0.2, 0.3, 20, 5, 10];
   const [timeString, setTimeString] = useState("");
   const [fullTimeString, setFullTimeString] = useState("");
   const [totes, setTotes] = useState(timeList[0]);
