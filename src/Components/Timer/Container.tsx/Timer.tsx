@@ -1,9 +1,17 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import Pling from "../../../Assets/Audio/SynthChime10.mp3";
+import { EMyEnum, TimerProps } from "../Models/Models";
 import styles from "./Timer.module.css";
 
-function Timer() {
-  const timeList = [0.2, 0.3, 20, 5, 10];
+// interface Props {
+//   timerArgs: number[];
+//   someFunc: (str: string) => void;
+// }
+
+function Timer({ timerArgs, myEnumType }: TimerProps) {
+  const one = EMyEnum.ONE;
+  const timeList = timerArgs;
+  // const timeList = [0.2, 0.3, 20, 5, 10];
   const [timeString, setTimeString] = useState("");
   const [fullTimeString, setFullTimeString] = useState("");
   const [totes, setTotes] = useState(timeList[0]);
@@ -90,7 +98,7 @@ function Timer() {
     int1.current = null;
     int2.current = null;
     setTimeListIndex(-1);
-  }
+  };
 
   return (
     <div className={styles.timer}>
@@ -107,9 +115,7 @@ function Timer() {
         <div className={styles.bar} style={{ width: timerWidth + "%" }}></div>
       </div>
       <div className={styles.allDone}>
-        <button onClick={cancelAll}>
-          All done! :D
-        </button>
+        <button onClick={cancelAll}>All done! :D</button>
       </div>
       <audio src={Pling} ref={sound}>
         Your browser does not support the
