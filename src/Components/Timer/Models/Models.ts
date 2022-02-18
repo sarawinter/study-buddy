@@ -1,8 +1,8 @@
 export interface TimerProps {
-  timerArgs: number[];
+  timerArgs?: number[];
   someFunc?: (str: string) => void;
-  stuff: IStuff[];
-  myEnumType: EMyEnum;
+  stuff?: IStuff[];
+  myEnumType?: EMyEnum;
 }
 
 interface IStuff {
